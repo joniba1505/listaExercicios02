@@ -1,0 +1,16 @@
+C:\csharp_itau\listaExercicios02\bin\Debug\net5.0\listaExercicios02.exe
+C:\csharp_itau\listaExercicios02\bin\Debug\net5.0\listaExercicios02.deps.json
+C:\csharp_itau\listaExercicios02\bin\Debug\net5.0\listaExercicios02.runtimeconfig.json
+C:\csharp_itau\listaExercicios02\bin\Debug\net5.0\listaExercicios02.runtimeconfig.dev.json
+C:\csharp_itau\listaExercicios02\bin\Debug\net5.0\listaExercicios02.dll
+C:\csharp_itau\listaExercicios02\bin\Debug\net5.0\ref\listaExercicios02.dll
+C:\csharp_itau\listaExercicios02\bin\Debug\net5.0\listaExercicios02.pdb
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.csproj.AssemblyReference.cache
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.GeneratedMSBuildEditorConfig.editorconfig
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.AssemblyInfoInputs.cache
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.AssemblyInfo.cs
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.csproj.CoreCompileInputs.cache
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.dll
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\ref\listaExercicios02.dll
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.pdb
+C:\csharp_itau\listaExercicios02\obj\Debug\net5.0\listaExercicios02.genruntimeconfig.cache

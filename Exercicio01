@@ -1,0 +1,51 @@
+using System;
+
+namespace listaExercicios02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            decimal nota1 = 0;
+            decimal nota2 = 0;
+            decimal media = 0;
+
+do {
+            try {
+                Console.WriteLine("Digite a primeira nota:");
+                nota1 = Convert.ToDecimal(Console.ReadLine());
+                Console.WriteLine("Nota1: " + nota1);
+            }
+catch (Exception ex) {
+    Console.WriteLine("Nota1 inválida. " + ex.Message);
+}        
+        }
+        while (nota1 < 0 || nota1 > 10);    
+        
+
+do {
+            try {
+                Console.WriteLine("Digite a segunda nota:");
+                nota2 = Convert.ToDecimal(Console.ReadLine());
+                Console.WriteLine("Nota2: " + nota2);
+            }
+catch (Exception ex) {
+    Console.WriteLine("Nota2 inválida. " + ex.Message);
+}        
+        }
+        while (nota2 < 0 || nota2 > 10);    
+
+media = (nota1 + nota2) /2;
+
+if (media == 10) {
+    Console.WriteLine("Média: " + media + "! Aluno aprovado com destinção!");
+}
+        else if (media >= 7 && media <10) {
+            Console.WriteLine("Média: " + media + "! Aluno aprovado!");
+        }
+        else {
+            Console.WriteLine("Média: " + media + "! Aluno reprovado!");
+        }
+        }
+    }
+}

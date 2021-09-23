@@ -1,0 +1,56 @@
+using System;
+
+namespace listaExercicios02
+{
+    class Exercicio03
+    {
+        static void Main(string[] args)
+        {
+            decimal preco1 = 0;
+            decimal preco2 = 0;
+            decimal preco3 = 0;
+decimal menorPreco = 0;            
+            
+            try {
+                Console.WriteLine("Digite o valordo primeiro produto:");
+                preco1 = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Valor do primeiro produto: R$ " + preco1);
+            }
+catch (Exception ex) {
+    Console.WriteLine("Valor do produto 1 inválido! " + ex.Message);
+}
+        
+            try {
+                Console.WriteLine("Digite o valor do segundo produto:");
+                preco2 = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Valor do segundo produto: R$ " + preco2);
+            }
+catch (Exception ex) {
+    Console.WriteLine("Valor inválido para o segundo produto! " + ex.Message);
+}
+        
+                    try {
+                Console.WriteLine("Digite o valor do terceiro produto:");
+                preco3 = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Valor do terceiro produto: R$ " + preco3);
+            }
+catch (Exception ex) {
+    Console.WriteLine("Valor inválido para o terceiro produto:! " + ex.Message);
+}
+
+if (preco1 <= preco2 && preco1 <= preco3) {
+    menorPreco = preco1;
+}
+        else if (preco2 <= preco3 && preco2 <= preco1) {
+            menorPreco = preco2;
+        }
+        else {
+            menorPreco = preco3;
+        }
+
+Console.WriteLine("Menor preço: R$ " + menorPreco);
+        
+
+        }
+    }
+}

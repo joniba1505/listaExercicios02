@@ -1,0 +1,53 @@
+using System;
+
+namespace listaExercicios02
+{
+    class Exercicio04
+    {
+        static void Main(string[] args)
+        {
+            decimal salario = 0;
+            decimal percentual = 0;
+            decimal valorReajuste = 0;
+decimal novoSalario = 0;            
+            
+            try {
+                Console.WriteLine("Digite o salário do funcionário:");
+                salario = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Valor do salário: R$ " + salario);
+            }
+catch (Exception ex) {
+    Console.WriteLine("Valor do salário inválido! " + ex.Message);
+}
+        
+if (salario <= 2800) {
+    percentual = 20;
+    valorReajuste = salario * percentual/100;
+    novoSalario = salario + valorReajuste;
+}
+
+else if (salario > 2800 && salario <= 7000) {
+    percentual = 15;
+    valorReajuste = salario * percentual/100;
+    novoSalario = salario + valorReajuste;
+}
+        
+else if (salario > 7000 && salario <=15000) {
+    percentual = 10;
+    valorReajuste = salario * percentual/100;
+    novoSalario = salario + valorReajuste;
+}
+
+else {
+    percentual = 10;
+    valorReajuste = salario * percentual/100;
+    novoSalario = salario + valorReajuste;
+}
+
+        Console.WriteLine("Salário antes do reajuste: " + salario);
+Console.WriteLine("Percentual de aumento: " + percentual + "%");
+        Console.WriteLine("Valor de reajuste: R$ " + valorReajuste);
+        Console.WriteLine("Novo salário: " + novoSalario);
+        }
+    }
+}
